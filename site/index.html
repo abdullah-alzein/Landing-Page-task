@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Stride – Sport Clothing</title>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Photos live in /images and are set in style.css via --img -->
+<div class="util"><a href="#">Find a Store</a><a href="#">Help</a><a href="#">Join Us</a><a href="#">Sign In</a></div>
+
+<header class="nav">
+  <a class="logo" href="#"><b>S</b>Stride</a>
+  <nav class="links" aria-label="Main">
+    <a href="#" aria-current="page">New</a><a href="#gender">Male</a><a href="#gender">Woman</a><a href="#gender">Child</a><a href="#">Sport</a>
+  </nav>
+  <div class="tools">
+    <label class="search"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg><input type="search" placeholder="Search" aria-label="Search"></label>
+    <button class="icon" id="theme" aria-label="Toggle light or dark mode"><svg class="sun" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.900 4.900l1.400 1.400M17.700 17.700l1.400 1.400M2 12h2M20 12h2M4.900 19.100l1.400-1.400M17.700 6.300l1.400-1.400"/></svg><svg class="moon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M20 14.500A8 8 0 0 1 9.500 4 8 8 0 1 0 20 14.500z"/></svg></button>
+    <button class="icon" aria-label="Favorites"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 20s-7.5-4.6-9-9.5C2 7 4.3 4.5 7.2 4.5c1.8 0 3.4 1 4.8 2.8 1.4-1.8 3-2.8 4.8-2.8 2.9 0 5.2 2.5 4.2 6C19.500 15.400 12 20 12 20z"/></svg></button>
+    <button class="icon" aria-label="Cart"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 8h14l-1 12H6L5 8z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg></button>
+  </div>
+</header>
+
+<main>
+<div class="hero photo">
+  <h1>Feel the<br>energy</h1>
+  <p>More than just clothing</p>
+  <div class="row"><a class="btn light" href="#collection">Discover</a><a class="btn light" href="#gender">Category</a></div>
+</div>
+
+<section id="collection" style="margin-top:0">
+  <div class="collection photo">
+    <div>
+      <h2>Discover our new collections</h2>
+      <a class="btn" style="background:#fff;color:#111" href="#">Discover</a>
+    </div>
+  </div>
+</section>
+
+<section id="gender" class="wrap">
+  <h3 class="sec">Shop by gender</h3>
+  <div class="gender">
+    <div class="card"><div class="photo g1"><span>Male</span></div><div class="cta"><a class="btn" href="#">Discover</a></div></div>
+    <div class="card"><div class="photo g2"><span>Female</span></div><div class="cta"><a class="btn" href="#">Discover</a></div></div>
+    <div class="card"><div class="photo g3"><span>Child</span></div><div class="cta"><a class="btn" href="#">Discover</a></div></div>
+  </div>
+</section>
+
+<section class="member">
+  <h2>Join us as member</h2>
+  <p>Join our family and benefit with our membership offers</p>
+  <form id="f">
+    <label for="em">Email</label>
+    <input id="em" type="email" placeholder="Email" required autocomplete="email">
+    <button class="btn" type="submit">Submit</button>
+  </form>
+  <div class="ok" id="ok" role="status"></div>
+</section>
+</main>
+
+<footer>
+  <div class="fcard">
+    <div class="ftop">
+      <div class="fbrand">
+        <a class="logo" href="#"><b>S</b>Stride</a>
+        <p>Stride outfits everyday athletes with performance clothing for every body, every sport and every season.</p>
+        <div class="social">
+          <a href="#" aria-label="X"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18.200 2h3.300l-7.200 8.300L22.800 22h-6.600l-5.200-6.800L5 22H1.700l7.700-8.800L1.300 2h6.800l4.700 6.200L18.200 2zm-1.200 18h1.800L7.100 3.900H5.100L17 20z"/></svg></a>
+          <a href="#" aria-label="Instagram"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.500" cy="6.500" r="1" fill="currentColor"/></svg></a>
+          <a href="#" aria-label="LinkedIn"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M4 3h16a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm2 7v8h2.500v-8H6zm1.200-3.800a1.400 1.400 0 1 0 0 2.800 1.400 1.400 0 0 0 0-2.800zM10.500 10v8H13v-4.200c0-1 .5-1.800 1.500-1.800s1.300.8 1.300 1.800V18h2.500v-4.700c0-2.200-1.100-3.500-2.900-3.500-1 0-1.800.5-2.200 1.200V10h-2.700z"/></svg></a>
+          <a href="#" aria-label="YouTube"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M21.600 7.200a2.500 2.500 0 0 0-1.800-1.800C18.200 5 12 5 12 5s-6.200 0-7.800.4A2.500 2.500 0 0 0 2.400 7.200C2 8.800 2 12 2 12s0 3.200.4 4.800a2.500 2.500 0 0 0 1.800 1.800C5.800 19 12 19 12 19s6.200 0 7.800-.4a2.500 2.500 0 0 0 1.800-1.800C22 15.200 22 12 22 12s0-3.200-.4-4.800zM10 15V9l5.200 3L10 15z"/></svg></a>
+        </div>
+      </div>
+      <div class="cols">
+        <div><h4>Shop</h4><a href="#">New</a><a href="#">Male</a><a href="#">Woman</a><a href="#">Child</a></div>
+        <div><h4>Help</h4><a href="#">Order status</a><a href="#">Shipping</a><a href="#">Returns</a><a href="#">Contact</a></div>
+        <div><h4>Company</h4><a href="#">About</a><a href="#">Careers</a><a href="#">Membership</a><a href="#">Stores</a></div>
+      </div>
+    </div>
+    <div class="fbot"><span>© 2026 Stride. All rights reserved.</span><span><a href="#">Privacy Policy</a><a href="#">Terms of Service</a><a href="#">Cookies Settings</a></span></div>
+  </div>
+</footer>
+
+<script>
+(function(){var r=document.documentElement;
+try{var t=localStorage.getItem('theme');if(t)r.setAttribute('data-theme',t)}catch(e){}
+document.getElementById('theme').addEventListener('click',function(){
+var cur=r.getAttribute('data-theme')||(matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light');
+var n=cur==='dark'?'light':'dark';r.setAttribute('data-theme',n);try{localStorage.setItem('theme',n)}catch(e){}});})();
+</script>
+<script>
+document.getElementById('f').addEventListener('submit',function(e){e.preventDefault();document.getElementById('ok').textContent='Thanks, you\u2019re on the list.';});
+</script>
+</body>
+</html>
